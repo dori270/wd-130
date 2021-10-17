@@ -11,7 +11,7 @@ header, main, footer {
     margin: 0 auto;
     border: 1px solid #bbb;
     padding: 0.5rem; 
-    background-color: green;
+    background-color: rgb(84, 150, 84);
   }
   
   h1 {
