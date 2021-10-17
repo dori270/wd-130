@@ -2,8 +2,9 @@ body {
     background-color: lightblue;
   }
   
+  
   h1 {
-    color: green;
+    color: rgb(7, 65, 7);
   }
 
   body {
@@ -11,4 +12,8 @@ body {
     margin-bottom: 0px;
     margin-right: 0px;
     margin-left: 0px;
+  }
+
+  p {
+    color:rgb(54, 10, 95);
   }
