@@ -3,15 +3,24 @@ body {
     background-color: rgb(15, 108, 141);
   }
   
-header, main, footer {
+header, 
+main, 
+footer {
   width: 720px;
 }
 
-  header {
+  header, footer {
     margin: 0 auto;
     border: 1px solid #bbb;
     padding: 0.5rem; 
-    background-color: rgb(84, 150, 84);
+    background-color: rgb(92, 114, 122);
+  }
+
+  main {
+    margin:  1rem, auto;
+    background-color: rgb(92, 114, 122);
+    padding: 1 rem;
+
   }
   
   h1 {
