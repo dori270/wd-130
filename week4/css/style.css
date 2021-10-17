@@ -3,11 +3,7 @@ body {
     background-color: rgb(15, 108, 141);
   }
   
-header, 
-main, 
-footer {
-  width: 720px;
-}
+
 
   header, footer {
     margin: 0 auto;
@@ -29,6 +25,12 @@ footer {
   }
 
 /* Class Selectors */
+.page{
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+
 .logo {
   width: 100px;
   height: auto;
