@@ -1,6 +1,6 @@
 body {
     font-size: 16px;
-    background-color: rgb(15, 108, 141);
+    background-color: rgb(7, 91, 124);
   }
   
 
@@ -9,18 +9,18 @@ body {
     margin: 0 auto;
     border: 1px solid #bbb;
     padding: 0.5rem; 
-    background-color: rgb(92, 114, 122);
+    background-color: rgb(5, 14, 94);
   }
 
   main {
     margin:  1rem auto;
-    background-color: rgb(92, 114, 122);
+    background-color: rgb(199, 206, 207);
     padding: 1rem;
 
   }
   
   h1 {
-    color: rgb(239, 243, 239);
+    color: rgb(253, 252, 252);
     font-size: 2.2rem;
   }
 
@@ -37,8 +37,8 @@ body {
 }
 
   body {
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin-top: 25px;
+    margin-bottom: 25px;
     margin-right: 0px;
     margin-left: 0px;
   }
