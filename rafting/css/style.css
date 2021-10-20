@@ -1,15 +1,18 @@
 body {
     font-size: 16px;
-    background-color: rgb(7, 91, 124);
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif
+    font-size: 16px;
+
   }
-  
 
 
   header, footer {
     margin: 0 auto;
     border: 1px solid #bbb;
     padding: 0.5rem; 
-    background-color: rgb(63, 66, 92);
+    background-color: rgb(180, 208, 240);
   }
 
   main {
@@ -17,15 +20,26 @@ body {
     background-color: rgb(199, 206, 207);
     padding: 1rem;
 
-.mainnav {
-  list-style-type: none;
-}
-
-  }
   
   h1 {
-    color: rgb(253, 252, 252);
+    color: #blue;
     font-size: 2.2rem;
+  }
+
+  .mainnav {
+    list-style-type: none;
+    display: flex;
+    background-color:rgb(15, 3, 59)
+  }
+
+  .mainnav li {
+    flex 1 1 auto; 
+  }
+
+  .mainnav a:hover {
+    color: #abe;
+    background-color: black;
+
   }
 
 /* Class Selectors */
