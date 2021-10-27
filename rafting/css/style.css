@@ -13,6 +13,7 @@ body {
     padding: 0.5rem; 
     background-color: rgb(248, 250, 252);
     box-shadow: 7px 5px 3px grey;
+    display: flex;
   }
 
   main {
@@ -22,7 +23,15 @@ body {
     box-shadow: 7px 5px 3px grey;
   }
 
-  
+  .mainnav a {
+    display: block;
+    padding: 1rem; 
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 1.5rem;
+  }
+
   h1 {
     color: rgb(46, 46, 46);
     font-size: 2.2rem;
@@ -39,7 +48,8 @@ body {
 
   .mainnav li {
     flex: 1 1 auto; 
-  
+    padding: 0;
+    text-align: center;
   }
 
   .mainnav a:hover {
@@ -58,6 +68,7 @@ body {
 .logo {
   width: 100px;
   height: auto;
+  margin-right: 2rem;
 }
 
   body {
@@ -69,4 +80,8 @@ body {
 
   p {
     color:rgb(15, 3, 59);
+  }
+
+  .nav {
+    width: 750px;
   }
