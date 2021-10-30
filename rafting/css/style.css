@@ -43,6 +43,7 @@ body {
     background-color:rgb(209, 73, 73);
     border-bottom-style: solid;
     border-bottom-width: 5px;
+    padding: 0;
 
   }
 
@@ -66,9 +67,9 @@ body {
 
 
 .logo {
-  width: 100px;
+  width: 150px;
   height: auto;
-  margin-right: 2rem;
+  margin-right: 3rem;
 }
 
   body {
@@ -83,5 +84,5 @@ body {
   }
 
   .nav {
-    width: 750px;
+    width: 900px;
   }
