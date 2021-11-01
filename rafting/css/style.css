@@ -41,8 +41,6 @@ body {
     list-style-type: none;
     display: flex;
     background-color:rgb(209, 73, 73);
-    border-bottom-style: solid;
-    border-bottom-width: 5px;
     padding: 0;
 
   }
@@ -70,6 +68,7 @@ body {
   width: 150px;
   height: auto;
   margin-right: 3rem;
+
 }
 
   body {
@@ -79,9 +78,22 @@ body {
     margin-left: 0px;
   }
 
+  .social {
+    display: flex;
+    align-items: flex-end;
+  
+  }
+
   p {
     color:rgb(15, 3, 59);
   }
+  .items {
+    height: 300px;
+    width: 300px;
+    display: flex;
+    
+  }
+
 
   .nav {
     width: 900px;
