@@ -89,8 +89,7 @@ body {
     color:rgb(15, 3, 59);
   }
   .items {
-    height: 300px;
-    width: 300px;
+   
     display: flex;
     
   }
