@@ -89,7 +89,7 @@ body {
     color:rgb(15, 3, 59);
   }
   .items {
-   
+    width: 300px;
     display: flex;
     
   }
