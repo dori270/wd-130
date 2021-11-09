@@ -76,6 +76,10 @@ body {
     margin-bottom: 25px;
     margin-right: 0px;
     margin-left: 0px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      
   }
 
   .social {
@@ -89,12 +93,7 @@ body {
   p {
     color:rgb(15, 3, 59);
   }
-  .items {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    
-  }
+ 
 
 
   .nav {
