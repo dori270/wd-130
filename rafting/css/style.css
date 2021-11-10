@@ -39,12 +39,16 @@ body {
 
   .cta {
     position: absolute;
-    top: 150px;
+    top: 100px;
     left: 150px; 
-    background: rgb(81, 81, 204);
-    border: 1.5px solid #000;
-    font-weight: 1000;
-    padding: 1.5 rem;
+    background:  rgb(161, 187, 192);
+    border: 2.5px solid #000;
+    font-weight: 50;
+    line-height: 10px;
+    font-size: 2rem;
+    font-style: bold;
+    padding: 10px;
+    border-radius: 10px;
     box-shadow:rgb(15, 3, 59) 2 2 2px;
     background: radial-gradient #eee blue;
   }
@@ -102,9 +106,10 @@ body {
   }
 
   .social {
-    display: flex;
-    justify-content: flex-end;
-    align-items: end;
+    display: grid;
+    grid-column: 1fr 1fr 1fr 1fr 1fr;
+    grid-row: 1fr 1fr 1fr; 
+    
     height: 200px;
     width: 300px;
   
