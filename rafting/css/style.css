@@ -105,10 +105,9 @@ body {
 
   .social {
     display: grid;
-    grid-column: 1fr 1fr;
-    grid-row: 1fr;
-    height: 200px;
-    width: 300px;
+    grid-column: 2/2;
+    grid-row: 3/3;
+    height: 20px;
   }
 
   p {
