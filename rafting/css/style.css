@@ -16,6 +16,16 @@ body {
     display: flex;
   }
 
+  header, footer {
+    margin: 0 auto;
+    border: 1px solid #bbb;
+    padding: 0.5rem; 
+    background-color: rgb(248, 250, 252);
+    box-shadow: 7px 5px 3px grey;
+    display: grid;
+    grid-template-columns: 1fr 200px;
+  }
+
   main {
     margin:  1rem auto;
     background-color: rgb(253, 254, 255);
@@ -112,8 +122,10 @@ body {
 
   .social {
     display: flex;
-    justify-items: right;
+
   }
+
+
 
   p {
     color:rgb(15, 3, 59);
