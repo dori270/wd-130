@@ -111,7 +111,8 @@ body {
   }
 
   .social {
-    justify-content: right;
+    display: grid;
+    justify-items: right;
   }
 
   p {
