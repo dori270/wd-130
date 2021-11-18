@@ -127,7 +127,7 @@ body {
 
 
 .logo {
-  width: 200px;
+  /*width: 200px; use width 150 if you can't get the .mainnav to align center*/
   height: auto;
   margin-right: 5rem;
   margin-left: 3rem;
