@@ -32,6 +32,7 @@ body {
     background-color: rgb(253, 254, 255);
     padding: 1rem;
     box-shadow: 7px 5px 3px grey;
+    
   }
 
   .mainnav a {
@@ -59,7 +60,7 @@ body {
     font-family: Arial, Helvetica, sans-serif; 
     font-size: 1.5rem;
     padding: 10px;
-    border-radius: 20px;
+    border-radius: 10px;
     box-shadow:rgb(15, 3, 59) 2 2 2px;
     background: radial-gradient #eee blue;
     
@@ -121,6 +122,10 @@ body {
     grid-template-rows: 1fr 1fr;
   }
 
+  .item1 {
+    margin: 1rem;
+  }
+
   .social {
     display: grid;
 
@@ -134,6 +139,4 @@ body {
  
 
 
-  .nav {
-    width: 900px;
-  }
+ 
