@@ -88,6 +88,12 @@ body {
     width: 100%;
     height: auto;
     margin: 0;
+
+  }
+
+  .heroimage img{
+    width: 100%;
+    margin: 0;
   }
 
   .mainnav {
@@ -156,16 +162,18 @@ body {
   
   }
 
-  .item1image {
+  .item1image img{
     margin: 1rem;
     /*grid-column: 3/4;*/
     /*border-radius: 10px;*/
     box-shadow: 7px 5px 3px grey;
+    width: 400px;
   }
 
-  .item2image {
+  .item2image img{
     box-shadow: 7px 5px 3px grey;
     margin: 1rem;
+    height: 400px;
   }
   
   .social {
@@ -184,25 +192,25 @@ body {
 
   }
 
-  .booking1 {
+  .booking1 img{
     border-radius: 10px;
    
   }
 
-  .booking2 {
+  .booking2 img{
     border-radius: 10px;
    
   }
 
-  .booking3 {
+  .booking3 img{
     border-radius: 10px;
    
   }
  
 .bookingbutton {
   position: absolute;
-  top: 1000px;
-  left: 200px; 
+  top: 580px;
+  left: 360px; 
   font-family: Arial, Helvetica, sans-serif; 
   padding: 10px;
   opacity: .9;
@@ -210,27 +218,21 @@ body {
 }
 
 .bookingbutton a{
-  font-size: .5rem;
-  font-weight: 300;
-  padding: 10px
+  text-decoration: none;
+  color: black;
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 10px;
+  background-color: rgb(161, 187, 192);
+  border-radius: 10px;
 }
 
-.cta a:hover {
+.bookingbutton a:hover {
   color: rgb(249, 249, 250);
   background-color: rgb(16, 3, 95);
   border-radius: 10px;
-  padding: 25px;
-
+  padding: 10px;
 }
 
-.cta a{
-  text-decoration: none;
-  color: black;
-  font-weight: 700;
-  font-size: 2rem;
-  padding: 25px;
-  background-color:  rgb(161, 187, 192);
-  border-radius: 10px;
 
-}
 
