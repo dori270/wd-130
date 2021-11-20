@@ -14,6 +14,8 @@ body {
     background-color: rgb(226, 228, 229);
     box-shadow: 7px 5px 3px grey;
     display: flex;
+    align-items: center;
+    justify-items: center;
   }
 
  footer {
@@ -23,6 +25,7 @@ body {
     background-color: rgb(226, 228, 229);
     box-shadow: 7px 5px 3px grey;
     display: flex;
+    justify-content: space-between;
   }
 
   main {
@@ -102,9 +105,14 @@ body {
     display: flex;
     background-color:rgb(209, 73, 73);
     padding: 0;
-    /*max-width: 1100px;*/
+    width: 100%;
     /*align-items: center;*/
   
+  }
+
+  .nav {
+    width: 100%;
+    
   }
 
   /*.nav {
