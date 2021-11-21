@@ -76,6 +76,7 @@ body {
     text-decoration: none;
     color: white;
     font-weight: 700;
+
     font-size: 2rem;
     padding: 25px;
     background-color:  rgb(60, 77, 100);
@@ -198,25 +199,30 @@ body {
   .options {
     display: flex;
     justify-content: space-around;
+    margin-left: .5rem;
+    margin-right: .5rem;
+
 
   }
 
   .booking1 img{
     
-    width: 200px;
-    box-shadow: 7px 5px 3px grey;
+    /*width: 200px;
+    box-shadow: 7px 5px 3px grey;*/
+    width: 300px;
   }
 
   .booking2 img{
     
-    width: 200px;
-    box-shadow: 7px 5px 3px grey;
+    width: 300px;
+    /*box-shadow: 7px 5px 3px grey;*/
   }
 
   .booking3 img{
     
-    width: 200px;
-    box-shadow: 7px 5px 3px grey;
+    /*width: 200px;
+    box-shadow: 7px 5px 3px grey;*/
+    width: 300px;
   }
  
 .bookingbutton {
