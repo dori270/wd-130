@@ -12,10 +12,8 @@ body {
     border: 1px solid #bbb;
     padding: 0.5rem; 
     background-color: rgb(226, 228, 229);
-    /*box-shadow: 7px 5px 3px grey;*/
     display: flex;
     align-items: center;
-    /*justify-items: center;*/
   }
 
  footer {
@@ -23,7 +21,6 @@ body {
     border: 1px solid #bbb;
     padding: 0.5rem; 
     background-color: rgb(226, 228, 229);
-    /*box-shadow: 7px 5px 3px grey;*/
     display: flex;
     justify-content: space-between;
   }
@@ -32,7 +29,6 @@ body {
     margin:  1rem auto;
     background-color: rgb(226, 228, 229);
     padding: 1rem;
-    /*box-shadow: 7px 5px 3px grey;*/
     
   }
 
