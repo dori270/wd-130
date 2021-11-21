@@ -206,18 +206,21 @@ body {
   }
 
   .booking1 img{
-    border-radius: 10px;
-   
+    
+    width: 200px;
+    box-shadow: 7px 5px 3px grey;
   }
 
   .booking2 img{
-    border-radius: 10px;
-   
+    
+    width: 200px;
+    box-shadow: 7px 5px 3px grey;
   }
 
   .booking3 img{
-    border-radius: 10px;
-   
+    
+    width: 200px;
+    box-shadow: 7px 5px 3px grey;
   }
  
 .bookingbutton {
