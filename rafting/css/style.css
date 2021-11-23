@@ -183,34 +183,62 @@ body {
     margin-left: 20rem;
   }
 
-  
- 
-  .options {
+  .option1 {
     display: flex;
-    justify-content: space-around;
-    margin-left: .5rem;
-    margin-right: .5rem;
-
-
   }
+
+ .info1 {
+   align-self: center;
+   margin: 2rem;
+   line-height: 2rem;
+   font-size: 1.25rem;
+ }
+  
+ .option2 {
+   display: flex;
+ }
+
+ .info2 {
+   align-self: center;
+   margin: 2rem;
+   line-height: 2rem;
+   font-size: 1.25rem;
+ }
+
+ .option3 {
+   display: flex;
+ }
+
+ .info3 {
+   align-self: center;
+   margin: 2rem;
+   line-height: 2rem;
+   font-size: 1.25rem;
+ }
 
   .booking1 img{
     
-    width: 300px;
-    border-radius: 10px;
+    width: 250px;
+    box-shadow: 7px 5px 3px grey;
+    margin: 2rem;
+  
   }
+
+  
 
   .booking2 img{
     
-    width: 300px;
-    border-radius: 10px;
+    width: 250px;
+    box-shadow: 7px 5px 3px grey;
+    margin: 2rem;
 
   }
 
   .booking3 img{
     
-    width: 300px;
-    border-radius: 10px;
+    width: 250px;
+    box-shadow: 7px 5px 3px grey;
+    margin: 2rem;
   }
 
 
@@ -226,13 +254,13 @@ h4 {
 }
 
 
-.descriptions {
+/*.descriptions {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   text-align: center;
   gap: 10px;
 
-}
+}*/
 
 .faq {
   display: grid;
