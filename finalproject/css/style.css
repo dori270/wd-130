@@ -13,32 +13,54 @@ body {
 
 
 header, footer {
-    /*display: flex;*/
-    justify-content: space-between;
+    display: flex;
+    justify-content:space-between;
     margin: 0;
     padding: 0.5rem; 
+    background-color: rgb(236,236, 236);
+  }
+
+  .mainnav {
+    display: flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 1000;
+    padding: 1.5rem;
     background-color: rgb(247, 136,136);
+
   }
 
   main {
     margin:  1rem auto;
-    background-color: rgb(243, 210, 80);
+    background-color: rgb(144, 204, 244);
     padding: 1rem;
   }
-  
+
+  ul {
+    list-style: none;
+  }
+
+  li a {
+    text-decoration: none;
+    padding: .5rem;
+    
+  }
+
+  li a:hover {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+  }
+
   h1 {
-    color: rgb(0, 0, 0);
+    color: rgb(248, 208, 45);
     font-size: 2.2rem;
+    
   }
 
   .page{
-    max-width: 960px;
+    max-width: 1200px;
     margin: 0 auto;
   }
   
-  ul {
-    list-style: inside;
-  }
 
   .img1 img{
     max-width: 100%;
