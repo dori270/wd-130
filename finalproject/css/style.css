@@ -1,25 +1,26 @@
 body {
+    text-align: center;
     font-size: 16px;
-    background-color: rgb(247, 136, 136)
+    background-color: rgb(93, 162, 213);
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
 
 }
 
+ul {
+  list-style: inside;
+}
+
 header, footer {
-    margin: 0 auto;
-    border: 1px solid #bbb;
+    margin: 0, 0, 1rem, 0;
     padding: 0.5rem; 
     background-color: rgb(243, 210, 80);
   }
 
- 
-
-
   main {
     margin:  1rem auto;
-    background-color: rgb(144, 204, 244);
+    background-color: rgb(247, 136,136);
     padding: 1rem;
   }
   
@@ -27,6 +28,16 @@ header, footer {
     color: rgb(0, 0, 0);
     font-size: 2.2rem;
   }
+
+  .img1 {
+    width: 700px;
+  }
+
+  .img2 {
+    width: 700px;
+  }
+
+  
 
   .page{
     max-width: 960px;
