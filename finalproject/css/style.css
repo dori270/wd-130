@@ -13,6 +13,8 @@ body {
 
 
 header, footer {
+    display: flex;
+    justify-content: space-between;
     margin: 0;
     padding: 0.5rem; 
     background-color: rgb(243, 210, 80);
@@ -50,5 +52,5 @@ header, footer {
  
   .img3 img {
     width: 100%;
-    display: block;
+    
   }
