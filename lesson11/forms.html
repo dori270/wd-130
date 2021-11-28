@@ -12,7 +12,7 @@
   width: 500px;
   /* Form outline */
   padding: 3em;
-  border: 1px solid #CCC;
+  border: 1px solid rgb(51, 51, 51);
   border-radius: 5em;
   background-color: lightblue;
 }
@@ -50,7 +50,8 @@ textarea {
 }
 
 input:focus,
-textarea:focus {
+textarea:focus, 
+button:focus {
   /* Additional highlight for focused elements */
   border-color: #000;
   border-width: 3px; 
@@ -67,12 +68,22 @@ textarea {
 .button {
   /* Align buttons with the text fields */
   padding-left: 253px;
+  
 }
 
 button {
   /* This extra margin represent roughly the same space as the space
      between the labels and their text fields */
   margin-left: .5em;
+  border-style: solid;
+  border-color: black;
+  border-radius: 5rem;
+  padding: .75rem;
+}
+
+button:hover {
+    border-width: 3px;
+    background-color:lightgreen;
 }
     </style>
 </head>
