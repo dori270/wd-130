@@ -16,7 +16,7 @@ p {
     font-family: sans-serif;
     font-size: larger;
     margin: 0;
-    line-height: 1.75rem;
+    line-height: 1.5rem;
 }
 
 body {
@@ -25,7 +25,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: sans-serif;
     letter-spacing: 0.03em;
    
   }
@@ -45,6 +45,7 @@ body {
 
   .size {
       font-variant: small-caps; 
+      align-self: center;
   }
 
   .footer {
@@ -57,7 +58,7 @@ body {
       text-decoration: none;
       padding: .5rem 3rem .5rem 3rem;
       color: black;
-      font-weight: 900;
+      font-weight: 600;
       background: rgb(221, 220, 220);
       border-width: thin;
       border-style: solid; 
@@ -65,8 +66,9 @@ body {
       border-radius: 15px;
   }
 
-  .footer hover {
+  .footer a:hover {
       color: white;
       background-color: black;
   }
+  
   
