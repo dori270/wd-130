@@ -66,6 +66,7 @@ body {
   }
 
   .footer hover {
-      color: grey;
+      color: white;
+      background-color: black;
   }
   
