@@ -159,12 +159,14 @@ li {
   
   .social {
     align-self: center;
+    margin-right: 1rem;
 
   }
 
   .featured {
     display: flex;
     justify-content: space-evenly;
+    padding-bottom: 2rem;
   }
 
   .firstfeatured img{
@@ -222,4 +224,15 @@ li {
     border-color: #263366;
     border-radius: 10px;
     
+  }
+
+  footer {
+    font-size: 2rem;
+    font-family: 'Indie Flower', cursive;
+    font-weight: 600;
+  }
+
+  h3 {
+    font-style: italic;
+
   }
