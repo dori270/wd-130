@@ -186,36 +186,40 @@ li {
     font-family: 'Indie Flower', cursive;
     font-size: 2rem;
     font-weight: 700;
-    margin: 4rem;
+    padding: 1rem;
 
   }
   
   .spotlightsection {
-    background-color: rgb(250, 225, 0);
+    background-color:rgb(247, 136,136);
+    opacity: .9;
+    
   }
 
   .spotlight {
     display: flex;
     justify-content: space-evenly;
-
+    align-items: center;
+    padding: 1rem;
   }
   .spotlightcontent {
     display: flex;
     justify-content: space-evenly;
-    max-width: 500px;
+    max-width: 450px;
     align-self: center;
     font-weight: 500;
     font-size: 1.5rem;
     line-height: 1.75rem;
     margin: 1rem;
+    margin-bottom: 2.5rem;
 
   }
 
   .spotlight img {
-    max-width: 320px;
+    max-width: 300px;
     border-style: solid;
     border-width: .5rem;
-    border-color: black;
-    margin: 2rem;
-
+    border-color: #263366;
+    border-radius: 10px;
+    
   }
