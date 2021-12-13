@@ -14,8 +14,6 @@ body {
 
 header {
     margin: 0 auto;
-    border: 1px solid #bbb;
-    padding: 0.5rem; 
     background-color: rgb(226, 228, 229);
     display: flex;
     align-items: center;
@@ -54,24 +52,17 @@ main {
   font-size: 2rem;
   font-weight: 700;
 
-
-  /*justify-content: space-between;
-
-  font-size: 20px;
-  font-weight: 1000;
-  padding: 1.5rem 1.5rem 2rem 2rem;
-  
-  text-decoration: none;*/
 }
 
 nav {
   width: 100%;
-  margin-right: 1rem;
+  margin-right: 2rem;
 }
 
  
 .logo {
   padding: .5rem;
+  margin-left: 1rem;
 }
   .mainnav li {
     flex: 1 1 auto; 
@@ -81,15 +72,19 @@ nav {
   
   }
 
+ .mainnav a:hover {
+    color: #263366;
+    background-color: rgb(243, 210, 80);
+ }
+
   .label {
     position: absolute;
-    top: 290px;
+    top: 235px;
     left: 490px;
     background-color:rgb(247, 136,136);
     opacity: .95;
     padding: 1.5rem;
     border-radius: 25% 10%;
-    font-size: 25px;
     color: rgb(250, 225, 0);
     font-size: 35px;
     font-family: 'Indie Flower', cursive;
@@ -101,12 +96,10 @@ nav {
   .cta {
     position: absolute;
     top: 300px;
-    left: 95px; 
+    left: 115px; 
     font-family: 'Indie Flower', cursive;
-
-
     padding: 25px;
-    /*opacity: .9;*/
+   
   }
 
   .cta a:hover {
@@ -120,7 +113,7 @@ nav {
     text-decoration: none;
     color: white;
     font-weight: 700;
-    font-size: 2rem;
+    font-size: 1.5rem;
     padding: 25px;
     background-color:  rgb(60, 77, 100);
     border-radius: 10px;
@@ -131,12 +124,6 @@ nav {
     width: 100%;
   }
 
-
-
-.mainnav a:hover {
-  color: #263366;
-  background-color: rgb(243, 210, 80);
-}
 
   ul {
     list-style: none;
@@ -158,11 +145,11 @@ li {
 
   h1 {
     color: #263366;
-    margin: 2rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
     align-self: center;
     white-space: nowrap;
-    
-font-family: 'Indie Flower', cursive;
+    font-family: 'Indie Flower', cursive;
   }
 
   .page{
@@ -170,20 +157,65 @@ font-family: 'Indie Flower', cursive;
     margin: 0 auto;
   }
   
+  .social {
+    align-self: center;
 
-  .img1 img{
-    max-width: 100%;
-    display: block;
   }
 
-  .img2 img{
-    max-width: 100%;
-    display: block;
-  }
- 
-  .img3 img {
-    width: 100%;
-    
+  .featured {
+    display: flex;
+    justify-content: space-evenly;
   }
 
- 
+  .firstfeatured img{
+    border-radius: 50%;
+    max-width: 320px;
+  }
+
+  .secondfeatured img {
+    border-radius: 50%;
+    max-width: 320px; 
+  }
+
+  .thirdfeatured img {
+    border-radius: 50%;
+    max-width: 320px;
+  }
+
+  h2 {
+    font-family: 'Indie Flower', cursive;
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 4rem;
+
+  }
+  
+  .spotlightsection {
+    background-color: rgb(250, 225, 0);
+  }
+
+  .spotlight {
+    display: flex;
+    justify-content: space-evenly;
+
+  }
+  .spotlightcontent {
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 500px;
+    align-self: center;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+    margin: 1rem;
+
+  }
+
+  .spotlight img {
+    max-width: 320px;
+    border-style: solid;
+    border-width: .5rem;
+    border-color: black;
+    margin: 2rem;
+
+  }
