@@ -51,12 +51,14 @@ main {
   font-family: 'Indie Flower', cursive;
   font-size: 2rem;
   font-weight: 700;
+  
 
 }
 
 nav {
   width: 100%;
   margin-right: 2rem;
+  
 }
 
  
@@ -66,7 +68,8 @@ nav {
 }
   .mainnav li {
     flex: 1 1 auto; 
-    
+    border-style: solid;
+  border-color:rgb(250, 225, 0);
     padding: 0;
     text-align: center;
   
@@ -80,7 +83,11 @@ nav {
   .label {
     position: absolute;
     top: 300px;
-    left: 540px;
+    left: 540px; 
+  }
+
+  .label, .label2 {
+    position: absolute;
     background-color:rgb(247, 136,136);
     opacity: .95;
     padding: 1.5rem;
@@ -93,6 +100,12 @@ nav {
     
   }
   
+  .label2 {
+    position: absolute;
+    top: 400px;
+    left: 400px;
+  }
+
   .cta {
     position: absolute;
     top: 645px;
@@ -119,11 +132,10 @@ nav {
     border-radius: 10px;
   }
 
-  .hero img {
+  .hero img, .hero2 img {
     position: relative;
     width: 100%;
   }
-
 
   ul {
     list-style: none;
@@ -170,17 +182,7 @@ li {
     padding-top: 2rem;
   }
 
-  .firstfeatured img{
-    border-radius: 50%;
-    max-width: 320px;
-  }
-
-  .secondfeatured img {
-    border-radius: 50%;
-    max-width: 320px; 
-  }
-
-  .thirdfeatured img {
+  .firstfeatured img, .secondfeatured img, .thirdfeatured img {
     border-radius: 50%;
     max-width: 320px;
   }
