@@ -48,7 +48,7 @@ main {
   background-color: rgb(247, 136,136);
   padding: 0;
   width: 100%;
-  font-family: 'Indie Flower', cursive;
+  font-family: 'Merriweather Sans', sans-serif;
   font-size: 2rem;
   font-weight: 700;
 }
@@ -67,7 +67,7 @@ nav {
   .mainnav li {
     flex: 1 1 auto; 
     border-style: solid;
-  border-color:rgb(250, 225, 0);
+    border-color:rgb(250, 225, 0);
     padding: 0;
     text-align: center;
   
@@ -92,7 +92,7 @@ nav {
     border-radius: 25% 10%;
     color: #263366;
     font-size: 45px;
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Merriweather', serif;
     font-weight: 800;
     line-height: 1.5rem;
     
@@ -238,8 +238,15 @@ li {
   }
 
   .librarycontent {
+    background-color: rgb(144, 204, 244);
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
-    
+    justify-self: center;
+  }
+
+  .book1, .book2, .book3 {
+    padding: 1rem;
+    align-self: center;
+
   }
