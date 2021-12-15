@@ -245,8 +245,17 @@ li {
     justify-self: center;
   }
 
-  .book1, .book2, .book3 {
+  .book1, .book2, .book3, .book4 {
     padding: 1rem;
     align-self: center;
 
+  }
+
+  .book1 img, .book2 img, .book3 img, .book4 img {
+    max-width: 200px;
+    
+  }
+
+  .series {
+    colum
   }
