@@ -87,7 +87,7 @@ nav {
   .label2 {
     position: absolute;
     top: 280px;
-    left: 320px;
+    left: 400px;
     
     
   }
@@ -132,11 +132,12 @@ nav {
     border-radius: 10px;
   }
 
-  .hero img, .hero2 img {
+  .hero img, .hero2 img, .hero3 img {
     position: relative;
     width: 100%;
     padding-bottom: 5rem;
   }
+  
 
   ul {
     list-style: none;
