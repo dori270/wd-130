@@ -66,8 +66,7 @@ nav {
 }
   .mainnav li {
     flex: 1 1 auto; 
-    border-style: solid;
-    border-color: #263366;
+    /*border: #263366 solid 2px;*/
     padding: 0;
     text-align: center;
   
@@ -89,6 +88,7 @@ nav {
     position: absolute;
     top: 280px;
     left: 320px;
+    
     
   }
   .label, .label2 {
@@ -135,6 +135,7 @@ nav {
   .hero img, .hero2 img {
     position: relative;
     width: 100%;
+    padding-bottom: 5rem;
   }
 
   ul {
@@ -178,7 +179,7 @@ li {
   .featured {
     display: flex;
     justify-content: space-evenly;
-    padding-bottom: 5rem;
+    padding-bottom: 7rem;
     padding-top: 2rem;
   }
 
@@ -203,6 +204,7 @@ li {
     opacity: .9;
     padding-bottom: 1rem;
     padding-top: 1rem;
+    
   }
 
   .spotlight {
@@ -210,13 +212,14 @@ li {
     justify-content: space-evenly;
     padding: 1rem;
     padding-bottom: 2rem;
+    font-family: 'Merriweather Sans', sans-serif;
+  
   }
   .spotlightcontent {
     max-width: 450px;
-    align-self: center;
     font-weight: 500;
     font-size: 1.5rem;
-    line-height: 1.75rem;
+    line-height: 3rem;
     
 
   }
@@ -225,7 +228,7 @@ li {
     max-width: 300px;
     border-style: solid;
     border-width: .5rem;
-    border-color: rgb(243, 210, 80);
+    border-color: #bbb;
     border-radius: 10px;
     
   }
@@ -249,24 +252,26 @@ li {
     
   }
 
-  .book1, .book2, .book3, .book4 {
-    padding: 1rem 1rem 1rem 0;
-    align-self: baseline;
+ 
 
-  }
+ 
 
-  .book1 img, .book2 img, .book3 img, .book4 img {
+  .book1 img, .book2 img, .book3 img, .book4 img, .book5 img, .book6 img, .book7 img, .book8 img, .book9 img, .book10 img, .book11 img, .book12 img, .book13 img, .book14 img, .book15 img {
     max-width: 200px;
+    margin-top: 5rem;
+    /*align-self: baseline;*/
     
   }
 
-  .series1 {
+  .series0, .series1, .series2, .series3 { 
     grid-column: 1/5;
-    background-color: #263366;
     display: flex;
-
+    justify-content:space-around;
+    align-items:baseline;
+    border-bottom: #263366 solid 20px;
   }
+ 
 
-  .series1 img {
-    max-width: 200px;
-  }
+ 
+
+ 
