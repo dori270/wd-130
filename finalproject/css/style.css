@@ -94,7 +94,7 @@ nav {
   .label3 {
     position: absolute;
     top: 350px;
-    left: 400px; 
+    left: 370px; 
   }
   
   
@@ -263,15 +263,10 @@ li {
     
   }
 
- 
-
- 
 
   .book1 img, .book2 img, .book3 img, .book4 img, .book5 img, .book6 img, .book7 img, .book8 img, .book9 img, .book10 img, .book11 img, .book12 img, .book13 img, .book14 img, .book15 img, .book16 img, .book17 img{
     max-width: 200px;
     margin-top: 5rem;
-    
-    
   }
 
   .series0, .series1, .series2, .series3 { 
@@ -283,6 +278,52 @@ li {
   }
  
 
- 
+ .toppicks {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-template-rows: 1fr 1fr;
+   color: #263366;
+   grid-gap: 1rem;
+    line-height: 1.9rem;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
+    padding-bottom: 1rem;
+    border: #263366 solid 20px;
+
+ }
+
+ .toppicks img {
+   max-width: 200px;
+   padding: 3rem;
+ }
+
+ .fiction {
+   grid-column: 1/3;
+   grid-row: 1/2;
+   background-color:rgb(247, 136,136);
+ }
+
+ .biography {
+   grid-column: 3/4;
+   grid-row: 1/2;
+   background-color:rgb(250, 225, 0);
+ }
+
+ .biogrpahy img {
+   border-radius: 50%;
+ }
+
+ .scifi {
+   grid-column: 3/4;
+   grid-row: 2/3;
+   background-color: rgb(144, 204, 244);
+ }
+
+ .history {
+   grid-column: 1/3;
+   grid-row: 2/3;
+   background-color:rgb(250, 225, 0);
+ }
 
  
