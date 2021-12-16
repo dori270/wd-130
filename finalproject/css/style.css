@@ -67,6 +67,7 @@ nav {
   .mainnav li {
     flex: 1 1 auto; 
     border-style: solid;
+    border-color: #263366;
     padding: 0;
     text-align: center;
   
@@ -79,13 +80,18 @@ nav {
 
   .label {
     position: absolute;
-    top: 300px;
-    left: 540px; 
+    top: 230px;
+    left: 400px; 
     
   }
 
-  .label, .label2 {
+  .label2 {
     position: absolute;
+    top: 280px;
+    left: 320px;
+    
+  }
+  .label, .label2 {
     background-color:rgb(247, 136,136);
     opacity: .95;
     padding: 1.25rem;
@@ -98,11 +104,7 @@ nav {
     
   }
   
-  .label2 {
-    position: absolute;
-    top: 300px;
-    left: 400px;
-  }
+  
 
   .cta {
     position: absolute;
@@ -186,15 +188,13 @@ li {
   }
 
   h2 {
-    
     text-decoration: underline;
     color: #263366;
-    font-size: 45px;
+    font-size: 40px;
     font-family: 'Merriweather', serif;
     font-weight: 800;
     line-height: 1.5rem;
-    padding-bottom: 1rem;
-
+    padding-bottom: 2rem;
 
   }
   
@@ -250,7 +250,7 @@ li {
   }
 
   .book1, .book2, .book3, .book4 {
-    padding: 1rem;
+    padding: 1rem 1rem 1rem 0;
     align-self: baseline;
 
   }
@@ -267,6 +267,6 @@ li {
 
   }
 
-  .series img {
+  .series1 img {
     max-width: 200px;
   }
